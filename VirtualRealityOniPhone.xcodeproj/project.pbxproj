@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25C126361C7D555500302E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C126351C7D555500302E75 /* AppDelegate.swift */; };
+		25C126381C7D555500302E75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C126371C7D555500302E75 /* ViewController.swift */; };
+		25C1263B1C7D555500302E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C126391C7D555500302E75 /* Main.storyboard */; };
+		25C1263D1C7D555500302E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C1263C1C7D555500302E75 /* Assets.xcassets */; };
+		25C126401C7D555500302E75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C1263E1C7D555500302E75 /* LaunchScreen.storyboard */; };
+		25C1264B1C7D555A00302E75 /* VirtualRealityOniPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C1264A1C7D555A00302E75 /* VirtualRealityOniPhoneTests.swift */; };
+		25C126561C7D555A00302E75 /* VirtualRealityOniPhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C126551C7D555A00302E75 /* VirtualRealityOniPhoneUITests.swift */; };
+		25C126691C7D606B00302E75 /* Cell2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C126681C7D606B00302E75 /* Cell2ViewController.swift */; };
+		25C1266B1C7D607300302E75 /* Cell3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C1266A1C7D607300302E75 /* Cell3ViewController.swift */; };
+		25C1266D1C7D607900302E75 /* Cell4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C1266C1C7D607900302E75 /* Cell4ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25C126471C7D555A00302E75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25C1262A1C7D555500302E75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25C126311C7D555500302E75;
+			remoteInfo = VirtualRealityOniPhone;
+		};
+		25C126521C7D555A00302E75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25C1262A1C7D555500302E75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25C126311C7D555500302E75;
+			remoteInfo = VirtualRealityOniPhone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25C126321C7D555500302E75 /* VirtualRealityOniPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualRealityOniPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C126351C7D555500302E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25C126371C7D555500302E75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25C1263A1C7D555500302E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25C1263C1C7D555500302E75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25C1263F1C7D555500302E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25C126411C7D555500302E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25C126461C7D555A00302E75 /* VirtualRealityOniPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualRealityOniPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C1264A1C7D555A00302E75 /* VirtualRealityOniPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualRealityOniPhoneTests.swift; sourceTree = "<group>"; };
+		25C1264C1C7D555A00302E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25C126511C7D555A00302E75 /* VirtualRealityOniPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualRealityOniPhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C126551C7D555A00302E75 /* VirtualRealityOniPhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualRealityOniPhoneUITests.swift; sourceTree = "<group>"; };
+		25C126571C7D555A00302E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25C126681C7D606B00302E75 /* Cell2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cell2ViewController.swift; path = ../Cell2ViewController.swift; sourceTree = "<group>"; };
+		25C1266A1C7D607300302E75 /* Cell3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cell3ViewController.swift; path = ../Cell3ViewController.swift; sourceTree = "<group>"; };
+		25C1266C1C7D607900302E75 /* Cell4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cell4ViewController.swift; path = ../Cell4ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25C1262F1C7D555500302E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C126431C7D555A00302E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C1264E1C7D555A00302E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25C126291C7D555500302E75 = {
+			isa = PBXGroup;
+			children = (
+				25C126341C7D555500302E75 /* VirtualRealityOniPhone */,
+				25C126491C7D555A00302E75 /* VirtualRealityOniPhoneTests */,
+				25C126541C7D555A00302E75 /* VirtualRealityOniPhoneUITests */,
+				25C126331C7D555500302E75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25C126331C7D555500302E75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25C126321C7D555500302E75 /* VirtualRealityOniPhone.app */,
+				25C126461C7D555A00302E75 /* VirtualRealityOniPhoneTests.xctest */,
+				25C126511C7D555A00302E75 /* VirtualRealityOniPhoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25C126341C7D555500302E75 /* VirtualRealityOniPhone */ = {
+			isa = PBXGroup;
+			children = (
+				25C126351C7D555500302E75 /* AppDelegate.swift */,
+				25C126671C7D5FC300302E75 /* Cells Controllers */,
+				25C126391C7D555500302E75 /* Main.storyboard */,
+				25C1263C1C7D555500302E75 /* Assets.xcassets */,
+				25C1263E1C7D555500302E75 /* LaunchScreen.storyboard */,
+				25C126411C7D555500302E75 /* Info.plist */,
+			);
+			path = VirtualRealityOniPhone;
+			sourceTree = "<group>";
+		};
+		25C126491C7D555A00302E75 /* VirtualRealityOniPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				25C1264A1C7D555A00302E75 /* VirtualRealityOniPhoneTests.swift */,
+				25C1264C1C7D555A00302E75 /* Info.plist */,
+			);
+			path = VirtualRealityOniPhoneTests;
+			sourceTree = "<group>";
+		};
+		25C126541C7D555A00302E75 /* VirtualRealityOniPhoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25C126551C7D555A00302E75 /* VirtualRealityOniPhoneUITests.swift */,
+				25C126571C7D555A00302E75 /* Info.plist */,
+			);
+			path = VirtualRealityOniPhoneUITests;
+			sourceTree = "<group>";
+		};
+		25C126631C7D5F6500302E75 /* Cell Controller One */ = {
+			isa = PBXGroup;
+			children = (
+				25C126371C7D555500302E75 /* ViewController.swift */,
+			);
+			name = "Cell Controller One";
+			sourceTree = "<group>";
+		};
+		25C126641C7D5F7100302E75 /* Cell Controller Two */ = {
+			isa = PBXGroup;
+			children = (
+				25C126681C7D606B00302E75 /* Cell2ViewController.swift */,
+			);
+			name = "Cell Controller Two";
+			sourceTree = "<group>";
+		};
+		25C126651C7D5F7600302E75 /* Cell Controller Three */ = {
+			isa = PBXGroup;
+			children = (
+				25C1266A1C7D607300302E75 /* Cell3ViewController.swift */,
+			);
+			name = "Cell Controller Three";
+			sourceTree = "<group>";
+		};
+		25C126661C7D5F7B00302E75 /* Cell Controller Four */ = {
+			isa = PBXGroup;
+			children = (
+				25C1266C1C7D607900302E75 /* Cell4ViewController.swift */,
+			);
+			name = "Cell Controller Four";
+			sourceTree = "<group>";
+		};
+		25C126671C7D5FC300302E75 /* Cells Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				25C126631C7D5F6500302E75 /* Cell Controller One */,
+				25C126641C7D5F7100302E75 /* Cell Controller Two */,
+				25C126651C7D5F7600302E75 /* Cell Controller Three */,
+				25C126661C7D5F7B00302E75 /* Cell Controller Four */,
+			);
+			name = "Cells Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25C126311C7D555500302E75 /* VirtualRealityOniPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25C1265A1C7D555A00302E75 /* Build configuration list for PBXNativeTarget "VirtualRealityOniPhone" */;
+			buildPhases = (
+				25C1262E1C7D555500302E75 /* Sources */,
+				25C1262F1C7D555500302E75 /* Frameworks */,
+				25C126301C7D555500302E75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualRealityOniPhone;
+			productName = VirtualRealityOniPhone;
+			productReference = 25C126321C7D555500302E75 /* VirtualRealityOniPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25C126451C7D555A00302E75 /* VirtualRealityOniPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25C1265D1C7D555A00302E75 /* Build configuration list for PBXNativeTarget "VirtualRealityOniPhoneTests" */;
+			buildPhases = (
+				25C126421C7D555A00302E75 /* Sources */,
+				25C126431C7D555A00302E75 /* Frameworks */,
+				25C126441C7D555A00302E75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25C126481C7D555A00302E75 /* PBXTargetDependency */,
+			);
+			name = VirtualRealityOniPhoneTests;
+			productName = VirtualRealityOniPhoneTests;
+			productReference = 25C126461C7D555A00302E75 /* VirtualRealityOniPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25C126501C7D555A00302E75 /* VirtualRealityOniPhoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25C126601C7D555A00302E75 /* Build configuration list for PBXNativeTarget "VirtualRealityOniPhoneUITests" */;
+			buildPhases = (
+				25C1264D1C7D555A00302E75 /* Sources */,
+				25C1264E1C7D555A00302E75 /* Frameworks */,
+				25C1264F1C7D555A00302E75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25C126531C7D555A00302E75 /* PBXTargetDependency */,
+			);
+			name = VirtualRealityOniPhoneUITests;
+			productName = VirtualRealityOniPhoneUITests;
+			productReference = 25C126511C7D555A00302E75 /* VirtualRealityOniPhoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25C1262A1C7D555500302E75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kenny Batista";
+				TargetAttributes = {
+					25C126311C7D555500302E75 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					25C126451C7D555A00302E75 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 25C126311C7D555500302E75;
+					};
+					25C126501C7D555A00302E75 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 25C126311C7D555500302E75;
+					};
+				};
+			};
+			buildConfigurationList = 25C1262D1C7D555500302E75 /* Build configuration list for PBXProject "VirtualRealityOniPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25C126291C7D555500302E75;
+			productRefGroup = 25C126331C7D555500302E75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25C126311C7D555500302E75 /* VirtualRealityOniPhone */,
+				25C126451C7D555A00302E75 /* VirtualRealityOniPhoneTests */,
+				25C126501C7D555A00302E75 /* VirtualRealityOniPhoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25C126301C7D555500302E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C126401C7D555500302E75 /* LaunchScreen.storyboard in Resources */,
+				25C1263D1C7D555500302E75 /* Assets.xcassets in Resources */,
+				25C1263B1C7D555500302E75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C126441C7D555A00302E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C1264F1C7D555A00302E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25C1262E1C7D555500302E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C126381C7D555500302E75 /* ViewController.swift in Sources */,
+				25C126691C7D606B00302E75 /* Cell2ViewController.swift in Sources */,
+				25C1266B1C7D607300302E75 /* Cell3ViewController.swift in Sources */,
+				25C126361C7D555500302E75 /* AppDelegate.swift in Sources */,
+				25C1266D1C7D607900302E75 /* Cell4ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C126421C7D555A00302E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C1264B1C7D555A00302E75 /* VirtualRealityOniPhoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C1264D1C7D555A00302E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C126561C7D555A00302E75 /* VirtualRealityOniPhoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25C126481C7D555A00302E75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25C126311C7D555500302E75 /* VirtualRealityOniPhone */;
+			targetProxy = 25C126471C7D555A00302E75 /* PBXContainerItemProxy */;
+		};
+		25C126531C7D555A00302E75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25C126311C7D555500302E75 /* VirtualRealityOniPhone */;
+			targetProxy = 25C126521C7D555A00302E75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25C126391C7D555500302E75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25C1263A1C7D555500302E75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25C1263E1C7D555500302E75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25C1263F1C7D555500302E75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25C126581C7D555A00302E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25C126591C7D555A00302E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25C1265B1C7D555A00302E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VirtualRealityOniPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KenTaps.VirtualRealityOniPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25C1265C1C7D555A00302E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VirtualRealityOniPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KenTaps.VirtualRealityOniPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25C1265E1C7D555A00302E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VirtualRealityOniPhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KenTaps.VirtualRealityOniPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualRealityOniPhone.app/VirtualRealityOniPhone";
+			};
+			name = Debug;
+		};
+		25C1265F1C7D555A00302E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VirtualRealityOniPhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KenTaps.VirtualRealityOniPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualRealityOniPhone.app/VirtualRealityOniPhone";
+			};
+			name = Release;
+		};
+		25C126611C7D555A00302E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VirtualRealityOniPhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KenTaps.VirtualRealityOniPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VirtualRealityOniPhone;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		25C126621C7D555A00302E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VirtualRealityOniPhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KenTaps.VirtualRealityOniPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VirtualRealityOniPhone;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25C1262D1C7D555500302E75 /* Build configuration list for PBXProject "VirtualRealityOniPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C126581C7D555A00302E75 /* Debug */,
+				25C126591C7D555A00302E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25C1265A1C7D555A00302E75 /* Build configuration list for PBXNativeTarget "VirtualRealityOniPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C1265B1C7D555A00302E75 /* Debug */,
+				25C1265C1C7D555A00302E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		25C1265D1C7D555A00302E75 /* Build configuration list for PBXNativeTarget "VirtualRealityOniPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C1265E1C7D555A00302E75 /* Debug */,
+				25C1265F1C7D555A00302E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		25C126601C7D555A00302E75 /* Build configuration list for PBXNativeTarget "VirtualRealityOniPhoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C126611C7D555A00302E75 /* Debug */,
+				25C126621C7D555A00302E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25C1262A1C7D555500302E75 /* Project object */;
+}
